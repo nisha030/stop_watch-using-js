@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(rgb(198, 198, 56),cyan);
+}
+.container{
+    color: azure;
+}
+.container .dig{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    font-size: 100px;
+    margin-right: 10px;
+}
+.container .tex{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    font-size: 50px;
+    margin-right: 10px;
+
+}
+.btn-store{
+    text-align: center;
+    margin-top:50px;
+}
+.btn-store .btn{
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+#Start{
+    background-color: royalblue;
+    border: 3px solid cadetblue;
+    
+}
+#Stop{
+    background-color: red;
+    border: 3px solid goldenrod;
+}
+#Reset{
+    background-color: plum;
+    color: crimson;
+    border: 3px solid palevioletred;
+}
